@@ -17,4 +17,6 @@ EXPOSE 8080 8000 8888
 ADD coraweb-srv.changes /app
 ADD coraweb-srv.image /app
 
-ENTRYPOINT ["/bin/bash"]
+# /app/pharo /app/coraweb-srv.image --no-quit
+ENTRYPOINT ["/app/pharo","/app/coraweb-srv.image","--no-quit"]
+#ENTRYPOINT ["/bin/bash"]

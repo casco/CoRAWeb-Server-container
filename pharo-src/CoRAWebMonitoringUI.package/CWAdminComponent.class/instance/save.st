@@ -2,9 +2,10 @@ callbacks
 save
 	isLocal
 		ifTrue: [ PersistenceManager beLocalWithEmptyRepository ]
-		ifFalse: [PersistenceManager
+		ifFalse: [ PersistenceManager
 				host: host;
 				database: database;
 				username: username;
 				password: password;
-				beMongoWithExistingDb ]
+				beMongoWithExistingDb.
+			CWAdminComponent location: location]

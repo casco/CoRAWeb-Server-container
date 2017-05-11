@@ -1,3 +1,3 @@
 callbacks
 cancel
-  self readPersistenceSettings 
+  self readConfiguration 

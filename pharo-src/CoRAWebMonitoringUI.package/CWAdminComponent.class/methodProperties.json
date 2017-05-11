@@ -1,11 +1,14 @@
 {
 	"class" : {
-		 },
+		"location" : "Casco 5/11/2017 19:11",
+		"location:" : "Casco 5/11/2017 18:47" },
 	"instance" : {
-		"cancel" : "Casco 5/11/2017 15:35",
-		"readPersistenceSettings" : "Casco 5/11/2017 15:38",
+		"cancel" : "Casco 5/11/2017 18:53",
+		"normalizeLocation:" : "Casco 5/11/2017 18:59",
+		"readConfiguration" : "Casco 5/11/2017 18:53",
 		"renderButtonsOn:" : "Casco 5/11/2017 15:25",
-		"renderContentOn:" : "Casco 5/11/2017 15:33",
+		"renderContentOn:" : "Casco 5/11/2017 18:53",
 		"renderMongodbConfigurationOn:" : "Casco 5/11/2017 17:41",
 		"renderPersistenceTypeButtonsOn:" : "Casco 5/11/2017 15:37",
-		"save" : "Casco 5/11/2017 17:42" } }
+		"renderServerLocationFieldOn:" : "Casco 5/11/2017 19:13",
+		"save" : "Casco 5/11/2017 19:13" } }

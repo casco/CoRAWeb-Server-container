@@ -1,13 +1,15 @@
 rendering
 renderContentOn: html
-   self readPersistenceSettings. 
+   self readConfiguration. 
 	html tbsPanel beDefault
 		with: [ html
 				tbsPanelHeading: [ html tbsPanelTitle
 						level: 3;
-						with: 'Database configuration' ].
+						with: 'Seerver configuration' ].
 			html
 				tbsPanelBody: [ html
-						tbsForm: [ self renderPersistenceTypeButtonsOn: html.
+						tbsForm: [ 
+							self renderServerLocationFieldOn: html.
+							self renderPersistenceTypeButtonsOn: html.
 							self renderMongodbConfigurationOn: html.
 							self renderButtonsOn: html ] ] ]
