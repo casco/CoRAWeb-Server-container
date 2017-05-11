@@ -1,0 +1,3 @@
+converting
+asPropertyDictionary
+	^ self shouldBeImplemented

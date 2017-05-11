@@ -1,0 +1,14 @@
+{
+	"category" : "CoRAWeb-teapot-tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 3/9/2017 16:39",
+	"instvars" : [
+		 ],
+	"name" : "TestCWServer",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

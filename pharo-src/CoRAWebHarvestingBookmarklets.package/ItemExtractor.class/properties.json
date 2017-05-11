@@ -1,0 +1,14 @@
+{
+	"category" : "CoRAWebHarvestingBookmarklets-extractors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Cacso 5/8/2017 21:36",
+	"instvars" : [
+		 ],
+	"name" : "ItemExtractor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

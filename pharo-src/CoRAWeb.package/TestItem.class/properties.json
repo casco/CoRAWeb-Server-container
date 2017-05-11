@@ -1,0 +1,14 @@
+{
+	"category" : "CoRAWeb-model-tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 3/9/2017 19:44",
+	"instvars" : [
+		 ],
+	"name" : "TestItem",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

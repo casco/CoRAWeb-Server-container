@@ -1,0 +1,14 @@
+{
+	"category" : "CoRAWebHarvestingBookmarklets-teapot",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 5/9/2017 14:24",
+	"instvars" : [
+		"teapot" ],
+	"name" : "CWHarvestingBookmarletsServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

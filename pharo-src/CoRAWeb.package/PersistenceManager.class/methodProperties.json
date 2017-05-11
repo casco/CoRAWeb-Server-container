@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"beLocalWithEmptyRepository" : "Casco 5/11/2017 14:51",
+		"beMongoWithExistingDb" : "Casco 5/11/2017 14:52",
+		"database" : "Casco 5/11/2017 14:16",
+		"database:" : "Casco 5/11/2017 14:17",
+		"host" : "Casco 5/11/2017 14:13",
+		"host:" : "Casco 5/11/2017 14:13",
+		"isLocal" : "Casco 5/11/2017 16:03",
+		"password" : "Casco 5/11/2017 14:13",
+		"password:" : "Casco 5/11/2017 14:13",
+		"populateWithExampleInstances" : "Casco 3/9/2017 20:35",
+		"username" : "Casco 5/11/2017 14:12",
+		"username:" : "Casco 5/11/2017 14:14" },
+	"instance" : {
+		 } }

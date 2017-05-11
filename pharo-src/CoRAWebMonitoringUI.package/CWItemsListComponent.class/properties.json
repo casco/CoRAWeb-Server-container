@@ -1,0 +1,14 @@
+{
+	"category" : "CoRAWebMonitoringUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 5/8/2017 22:11",
+	"instvars" : [
+		"urlToPost" ],
+	"name" : "CWItemsListComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

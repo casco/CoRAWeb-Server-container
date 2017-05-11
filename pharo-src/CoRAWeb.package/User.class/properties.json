@@ -1,0 +1,16 @@
+{
+	"category" : "CoRAWeb-model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 3/7/2017 18:28",
+	"instvars" : [
+		"username",
+		"userid",
+		"groups" ],
+	"name" : "User",
+	"pools" : [
+		 ],
+	"super" : "CAModel",
+	"type" : "normal" }

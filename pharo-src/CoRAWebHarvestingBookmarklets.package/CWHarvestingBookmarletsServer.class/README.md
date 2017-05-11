@@ -1,0 +1,1 @@
+A Teapot server listening on its own port, for requests from the bookmarklets to emulate content extraction.

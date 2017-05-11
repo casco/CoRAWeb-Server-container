@@ -1,0 +1,3 @@
+persistence
+users
+  ^User selectAll 

@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"fromJSON:" : "Casco 3/9/2017 19:42",
+		"isVoyageRoot" : "Casco 3/7/2017 20:50",
+		"named:withId:" : "Casco 3/7/2017 18:28" },
+	"instance" : {
+		"=" : "Casco 3/9/2017 19:29",
+		"asJSON" : "Casco 3/9/2017 19:42",
+		"asPropertyDictionary" : "Casco 3/9/2017 21:02",
+		"equalsUser:" : "Casco 3/9/2017 19:37",
+		"groups" : "Casco 3/8/2017 23:04",
+		"groups:" : "Casco 3/8/2017 23:04",
+		"initialize" : "Casco 3/8/2017 00:07",
+		"userid" : "Casco 3/7/2017 18:27",
+		"userid:" : "Casco 3/7/2017 18:27",
+		"username" : "Casco 3/7/2017 18:27",
+		"username:" : "Casco 3/7/2017 18:27" } }

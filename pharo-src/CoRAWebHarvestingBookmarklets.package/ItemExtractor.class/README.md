@@ -1,0 +1,1 @@
+Given a URL from an article in Mendeley, I return a dictionary with its title, authors, and abstract. 

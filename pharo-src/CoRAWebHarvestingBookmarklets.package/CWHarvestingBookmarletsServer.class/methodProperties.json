@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"configureRoutes" : "Casco 5/9/2017 17:16",
+		"configureTeapot" : "Casco 5/9/2017 14:25",
+		"extractMendeleyItemFrom:" : "Casco 5/9/2017 17:32",
+		"extractSlideshareItemFrom:" : "Casco 5/9/2017 17:32",
+		"extractYoutubeItemFrom:" : "Casco 5/9/2017 19:41",
+		"extractionReportFor:" : "Casco 5/9/2017 15:49",
+		"harvestItemFrom:" : "Casco 5/9/2017 19:35",
+		"initialize" : "Casco 5/9/2017 14:25",
+		"start" : "Casco 5/9/2017 14:30",
+		"stop" : "Casco 5/9/2017 14:30" } }

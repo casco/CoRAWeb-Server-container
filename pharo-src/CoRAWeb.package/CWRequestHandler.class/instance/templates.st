@@ -1,0 +1,3 @@
+persistence
+templates
+  ^ExtractionTemplate selectAll 

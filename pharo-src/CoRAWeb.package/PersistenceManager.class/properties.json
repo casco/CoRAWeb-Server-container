@@ -1,0 +1,19 @@
+{
+	"category" : "CoRAWeb-persistence",
+	"classinstvars" : [
+		"host",
+		"password",
+		"username",
+		"database",
+		"local",
+		"repository" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 3/7/2017 20:58",
+	"instvars" : [
+		 ],
+	"name" : "PersistenceManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

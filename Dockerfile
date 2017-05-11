@@ -1,13 +1,20 @@
 FROM ubuntu:latest
 
-RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
-RUN apt-get update 
-RUN apt-get install -y --no-install-recommends software-properties-common
-RUN echo "deb http://repo.mongodb.org/apt/ubuntu $(cat /etc/lsb-release | grep DISTRIB_CODENAME | cut -d= -f2)/mongodb-org/3.2 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-3.2.list
-RUN apt-get update && apt-get install -y mongodb-org
-RUN mkdir -p /data/db
+RUN dpkg --add-architecture i386 
+RUN apt-get update
+RUN apt-get install -y libx11-6:i386
+RUN apt-get install -y libgl1-mesa-glx:i386 
+RUN apt-get install -y libfontconfig1:i386 
+RUN apt-get install -y libssl1.0.0:i386 
+RUN apt-get install -y curl
+RUN apt-get install -y unzip
 
-EXPOSE 27017
+WORKDIR /app
+RUN curl get.pharo.org | bash
 
-ENTRYPOINT ["/usr/bin/mongod"]
+EXPOSE 8080 8000 8888
 
+ADD coraweb-srv.changes /app
+ADD coraweb-srv.image /app
+
+ENTRYPOINT ["/bin/bash"]

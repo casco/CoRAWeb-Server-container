@@ -1,0 +1,1 @@
+Tests the public REST interface only

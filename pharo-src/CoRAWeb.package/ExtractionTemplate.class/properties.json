@@ -1,0 +1,20 @@
+{
+	"category" : "CoRAWeb-model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 3/7/2017 16:47",
+	"instvars" : [
+		"urlPattern",
+		"xPathPropertySelectors",
+		"itemType",
+		"owner",
+		"groups",
+		"hostMatcher",
+		"pathMatcher" ],
+	"name" : "ExtractionTemplate",
+	"pools" : [
+		 ],
+	"super" : "CAModel",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "CoRAWeb-model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 3/9/2017 20:58",
+	"instvars" : [
+		 ],
+	"name" : "CAModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

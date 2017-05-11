@@ -1,0 +1,3 @@
+persistence
+items
+  ^Item selectAll 

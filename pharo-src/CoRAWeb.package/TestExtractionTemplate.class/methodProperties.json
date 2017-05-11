@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEquals" : "Casco 3/9/2017 20:28",
+		"testFromToJSON" : "Casco 3/9/2017 20:31",
+		"testMatches" : "Casco 3/12/2017 21:28" } }

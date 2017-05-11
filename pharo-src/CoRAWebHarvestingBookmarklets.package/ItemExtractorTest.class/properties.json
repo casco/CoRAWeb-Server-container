@@ -1,0 +1,14 @@
+{
+	"category" : "CoRAWebHarvestingBookmarklets-extractors-tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ItemExtractorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

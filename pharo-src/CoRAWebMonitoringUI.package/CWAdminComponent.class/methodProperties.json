@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cancel" : "Casco 5/11/2017 15:35",
+		"readPersistenceSettings" : "Casco 5/11/2017 15:38",
+		"renderButtonsOn:" : "Casco 5/11/2017 15:25",
+		"renderContentOn:" : "Casco 5/11/2017 15:33",
+		"renderMongodbConfigurationOn:" : "Casco 5/11/2017 17:41",
+		"renderPersistenceTypeButtonsOn:" : "Casco 5/11/2017 15:37",
+		"save" : "Casco 5/11/2017 17:42" } }

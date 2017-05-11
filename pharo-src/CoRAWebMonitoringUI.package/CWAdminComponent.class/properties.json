@@ -1,0 +1,18 @@
+{
+	"category" : "CoRAWebMonitoringUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 5/11/2017 14:49",
+	"instvars" : [
+		"host",
+		"database",
+		"username",
+		"password",
+		"isLocal" ],
+	"name" : "CWAdminComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

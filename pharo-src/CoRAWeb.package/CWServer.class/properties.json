@@ -1,0 +1,17 @@
+{
+	"category" : "CoRAWeb-teapot",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Casco 3/9/2017 14:02",
+	"instvars" : [
+		"teapot",
+		"itemsHandler",
+		"usersHandler",
+		"templatesHandler" ],
+	"name" : "CWServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
