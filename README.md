@@ -13,7 +13,12 @@ The list of items in the repository is available at http://localhost:8888/items
 The first time you try to access it, you'll see that it has problems connecting to the mongodb database. That is because there is no database available yet. You have two options:
 a) in memory persistence, b) use a mongodb database on your machine
 
-#Configuration
+# Configuration
 To configure the database go to http://localhost:8888/admin - database configuration should be self explanatory. 
 
+# REST API
+The rest Api is available at http://localhost:8080/ . For now there are only two methods
+
+* GET to /items will return the JSON list of all items in the repository
+* POST ???
 
