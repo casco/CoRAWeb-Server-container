@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"fromJSON:withOwner:" : "Casco 3/9/2017 20:10",
+		"fromJSON:withOwner:" : "Casco 5/17/2017 15:22",
 		"isVoyageRoot" : "Casco 3/9/2017 05:03" },
 	"instance" : {
 		"=" : "Casco 3/9/2017 19:50",
@@ -20,5 +20,6 @@
 		"title" : "Casco 5/8/2017 22:30",
 		"type" : "Casco 3/9/2017 04:50",
 		"type:" : "Casco 3/9/2017 04:50",
+		"updateFromItem:" : "Casco 5/17/2017 15:09",
 		"url" : "Casco 3/9/2017 04:50",
 		"url:" : "Casco 3/9/2017 04:50" } }

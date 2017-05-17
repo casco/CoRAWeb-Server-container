@@ -14,11 +14,21 @@ The first time you try to access it, you'll see that it has problems connecting 
 a) in memory persistence, b) use a mongodb database on your machine
 
 # Configuration
-To configure the database go to http://localhost:8888/admin - database configuration should be self explanatory. 
+To configure the database go to http://localhost:8888/admin - database configuration should be self explanatory.
 
 # REST API
 The rest Api is available at http://localhost:8080/ . For now there are only two methods
 
-* GET to /items will return the JSON list of all items in the repository
-* POST ???
+## items
+A get request to /items will return the JSON list of __all__ items in the repository.
+You can try it with curl executing:
+```
+curl -H "Accept: application/json" http://localhost:8080/items
+```
+If you want to paginate thourgh the results use the limit (how many) and offset (starting on) parameters:
 
+```
+curl -H "Accept: application/json" http://localhost:8080/items\?offset\=1&limit\=10
+```
+
+* POST ???

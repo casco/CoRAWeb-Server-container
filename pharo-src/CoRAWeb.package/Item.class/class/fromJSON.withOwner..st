@@ -6,7 +6,7 @@ fromJSON: jsonIgnoreOwner withOwner: aUser
 		owner: aUser;
 		url: (dict at: 'url');
 		type: (dict at: 'type');
-		groups: (dict at: 'groups');
+		groups: (dict at: 'groups') asSet;
 		properties:
 			(dict copy
 				removeKey: 'url';

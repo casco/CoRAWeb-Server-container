@@ -1,3 +1,3 @@
-private
+hooks
 elements
   ^self items
