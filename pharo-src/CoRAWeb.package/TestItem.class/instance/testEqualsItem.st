@@ -1,5 +1,5 @@
 testing
-testEquals
+testEqualsItem
 	| user itema itemb itemc |
 	user := User named: 'juan' withId: 'juan@gmail.com'.
 	itema := Item new
@@ -26,5 +26,5 @@ testEquals
 		at: 'title' put: 'Really XXX Book';
 		at: 'author' put: 'Annonymous';
 		yourself.
-	self assert: itema equals: itemb.
-	self deny: itema = itemc
+	self assert: (itema equalsItem: itemb).
+	self deny: (itema equalsItem: itemc)

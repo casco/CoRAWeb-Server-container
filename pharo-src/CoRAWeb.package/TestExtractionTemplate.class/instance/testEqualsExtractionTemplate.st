@@ -1,5 +1,5 @@
 testing
-testEquals
+testEqualsExtractionTemplate
 	| xPathPropertySelectors user a b c |
 	user := (User named: 'Jhon Doe' withId: 'doe@gmail.com')
 		groups: #('lifia' 'public');
@@ -26,5 +26,5 @@ testEquals
 		owner: user;
 		urlPattern: 'http://www.XXX.com/.*';
 		xPathPropertySelectors: xPathPropertySelectors.
-	self assert: a equals: b.
-	self deny: a = c
+	self assert: (a equalsExtractionTemplate: b).
+	self deny: (a equalsExtractionTemplate: c)

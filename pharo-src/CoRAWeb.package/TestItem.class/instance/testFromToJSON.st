@@ -12,4 +12,4 @@ testFromToJSON
 		yourself.
 	json := itema asJSON.
 	itemb := Item fromJSON: json withOwner: user.
-	self assert: itema equals: itemb
+	self assert: (itema equalsItem: itemb)

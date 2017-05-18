@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"testDescription" : "Casco 5/8/2017 22:37",
-		"testEquals" : "Casco 3/9/2017 19:49",
-		"testFromToJSON" : "Casco 3/9/2017 20:09",
+		"testEqualsItem" : "Casco 5/18/2017 13:13",
+		"testFromToJSON" : "Casco 5/18/2017 13:13",
 		"testSetterChangesUpdateTime" : "Casco 5/18/2017 10:58",
 		"testSource" : "Casco 5/8/2017 22:27",
 		"testTitle" : "Casco 5/8/2017 22:29",

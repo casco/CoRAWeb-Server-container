@@ -5,7 +5,6 @@
 		"password",
 		"username",
 		"database",
-		"local",
 		"repository" ],
 	"classvars" : [
 		 ],

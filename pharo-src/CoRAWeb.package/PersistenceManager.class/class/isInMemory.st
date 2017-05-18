@@ -1,3 +1,3 @@
 accessing
-isLocal
+isInMemory
   ^repository class == VOMemoryRepository

@@ -1,7 +1,8 @@
 managing
 beMongoWithExistingDb
-	VORepository current reset.
-	VORepository setRepository: nil.
+	self isInMemory
+		ifFalse: [ VORepository current reset.
+			VORepository setRepository: nil ].
 	repository := VOMongoRepository
 		host: self host
 		database: self database

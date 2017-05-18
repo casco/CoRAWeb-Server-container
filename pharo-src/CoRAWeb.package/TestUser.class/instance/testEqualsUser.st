@@ -1,5 +1,5 @@
 testing
-testEquals
+testEqualsUser
 	| a b c |
 	a := (User named: 'Juan' withId: 'juan@gmail.com')
 		groups: #('one' 'two');
@@ -10,5 +10,5 @@ testEquals
 	c := (User named: 'Pedro' withId: 'juan@gmail.com')
 		groups: #('two' 'one');
 		yourself.
-	self assert: a equals: b.
-	self deny: a = c
+	self assert: (a equalsUser: b).
+	self deny: (a equalsUser: c)

@@ -16,4 +16,4 @@ testFromToJSON
 		xPathPropertySelectors: xPathPropertySelectors.
 	json := a asJSON.
 	b := ExtractionTemplate fromJSON: json withOwner: user.
-	self assert: a equals: b
+	self assert: (a equalsExtractionTemplate: b)

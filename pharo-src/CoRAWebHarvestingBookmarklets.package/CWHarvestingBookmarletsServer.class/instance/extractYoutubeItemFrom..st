@@ -7,9 +7,9 @@ extractYoutubeItemFrom: urlToPost
 			it
 				type: 'http://schema.org/VideoObject';
 				url: urlToPost printString;
-				groups: 'public';
+				groups: {'public'};
 				properties: dict.
 			it save ].
-	^TeaResponse ok
+	^ TeaResponse ok
 		body: (self extractionReportFor: it);
 		yourself

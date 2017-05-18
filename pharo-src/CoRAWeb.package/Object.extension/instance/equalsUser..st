@@ -1,3 +1,0 @@
-*CoRAWeb
-equalsUser: aUser
-	^ false

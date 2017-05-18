@@ -6,4 +6,4 @@ testFromToJSON
 		yourself.
 	json := a asJSON.
 	b := User fromJSON: json.
-	self assert: a equals: b
+	self assert: (a equalsUser: b)
