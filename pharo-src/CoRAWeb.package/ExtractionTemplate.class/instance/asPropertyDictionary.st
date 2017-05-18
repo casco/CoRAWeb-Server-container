@@ -1,6 +1,6 @@
 converting
 asPropertyDictionary
-	^ Dictionary new
+	^ super asPropertyDictionary 
 		at: 'url-pattern' put: self urlPattern;
 		at: 'item-type' put: self itemType;
 		at: 'owner' put: self owner userid;

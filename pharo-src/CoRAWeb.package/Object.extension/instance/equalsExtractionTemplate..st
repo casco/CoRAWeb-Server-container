@@ -1,0 +1,3 @@
+*CoRAWeb
+equalsExtractionTemplate: temp
+	^ false

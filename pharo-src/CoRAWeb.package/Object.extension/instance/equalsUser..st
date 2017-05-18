@@ -1,0 +1,3 @@
+*CoRAWeb
+equalsUser: aUser
+	^ false

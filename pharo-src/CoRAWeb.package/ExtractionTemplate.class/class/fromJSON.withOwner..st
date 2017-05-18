@@ -2,16 +2,18 @@ instance-creation
 fromJSON: jsonIgnoreOwner withOwner: aUser
 	| it dict |
 	dict := NeoJSONReader fromString: jsonIgnoreOwner.
-	it := ExtractionTemplate  new
+	it := ExtractionTemplate new
 		owner: aUser;
 		urlPattern: (dict at: 'url-pattern');
 		itemType: (dict at: 'item-type');
 		groups: (dict at: 'groups');
+		lastUpdatedOn: (dict at: 'last-updated');
 		xPathPropertySelectors:
 			(dict copy
 				removeKey: 'url-pattern';
 				removeKey: 'item-type';
 				removeKey: 'groups';
 				removeKey: 'owner' ifAbsent: [  ];
+				removeKey: 'last-updated' ifAbsent: [  ];
 				yourself).
 	^ it

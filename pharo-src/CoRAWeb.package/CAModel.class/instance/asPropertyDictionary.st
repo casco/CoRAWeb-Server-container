@@ -1,3 +1,5 @@
 converting
 asPropertyDictionary
-	^ self shouldBeImplemented
+	^ Dictionary new
+		at: 'last-updated' put: self lastUpdatedOn printString;
+		yourself

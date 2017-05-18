@@ -1,6 +1,6 @@
 as yet unclassified
 asPropertyDictionary
-	^ Dictionary new
+	^ super asPropertyDictionary 
 		at: 'username' put: self username;
 		at: 'userid' put: self userid;
 		at: 'groups' put: self groups;

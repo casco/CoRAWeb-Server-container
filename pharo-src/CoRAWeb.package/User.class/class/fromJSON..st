@@ -4,4 +4,5 @@ fromJSON: jsonString
 	dict := NeoJSONReader fromString: jsonString.
 	instance := self named: (dict at: 'username') withId: (dict at: 'userid').
 	instance groups: (dict at: 'groups' ifAbsent: [ #() ]).
+	instance lastUpdatedOn: (dict at: 'last-updated').
 	^ instance

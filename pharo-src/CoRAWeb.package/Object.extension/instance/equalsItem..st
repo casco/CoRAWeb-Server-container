@@ -1,0 +1,3 @@
+*CoRAWeb
+equalsItem: anItem
+	^ false

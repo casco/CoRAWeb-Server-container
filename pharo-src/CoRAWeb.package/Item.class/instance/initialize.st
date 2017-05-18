@@ -1,4 +1,5 @@
 initialize
 initialize
-  properties := Dictionary new.
-  groups := Set new.
+	super initialize.
+	properties := Dictionary new.
+	groups := Set new

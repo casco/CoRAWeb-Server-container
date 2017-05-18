@@ -1,4 +1,5 @@
 initialize
 initialize
-   groups := Set new.
-   xPathPropertySelectors := Dictionary new. 
+	super initialize.
+	groups := Set new.
+	xPathPropertySelectors := Dictionary new

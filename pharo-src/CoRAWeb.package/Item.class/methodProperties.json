@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"fromJSON:withOwner:" : "Casco 5/17/2017 15:22",
+		"fromJSON:withOwner:" : "Casco 5/18/2017 09:59",
 		"isVoyageRoot" : "Casco 3/9/2017 05:03" },
 	"instance" : {
 		"=" : "Casco 3/9/2017 19:50",
-		"asPropertyDictionary" : "Casco 5/9/2017 17:42",
+		"asPropertyDictionary" : "Casco 5/18/2017 08:30",
 		"at:" : "Casco 3/9/2017 04:51",
 		"at:put:" : "Casco 3/9/2017 04:50",
 		"description" : "Casco 5/8/2017 22:37",
 		"equalsItem:" : "Casco 3/9/2017 19:53",
 		"groups" : "Casco 3/9/2017 04:50",
 		"groups:" : "Casco 3/9/2017 04:50",
-		"initialize" : "Casco 3/9/2017 04:49",
+		"initialize" : "Casco 5/18/2017 08:20",
 		"owner" : "Casco 3/9/2017 04:50",
 		"owner:" : "Casco 3/9/2017 04:50",
 		"properties" : "Casco 3/9/2017 04:50",

@@ -1,6 +1,6 @@
 testing
 equalsExtractionTemplate: temp
-	^self urlPattern = temp urlPattern
+	^ self urlPattern = temp urlPattern
 		and: [ self itemType = temp itemType
 				and: [ self owner = temp owner
 						and: [ self xPathPropertySelectors = temp xPathPropertySelectors

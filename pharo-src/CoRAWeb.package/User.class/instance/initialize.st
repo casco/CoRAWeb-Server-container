@@ -1,3 +1,4 @@
 initialize
 initialize
-   groups := Set new.
+	super initialize.
+	groups := Set new
