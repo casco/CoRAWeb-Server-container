@@ -1,6 +1,6 @@
 persistence
 itemsFrom: offset limit: limit
 	^ Item
-		selectMany: [ :each | true ]
+		selectMany: [ :each | ]
 		limit: limit
 		offset: offset

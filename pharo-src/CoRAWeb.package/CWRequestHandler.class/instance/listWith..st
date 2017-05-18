@@ -4,7 +4,7 @@ listWith: aRequest
 	[ offset := aRequest at: #offset ifAbsent: nil.
 	limit := aRequest at: #limit ifAbsent: nil.
 	limit notNil & offset notNil
-		ifTrue: [ list := self elementsFrom: offset limit: limit ]
+		ifTrue: [ list := self elementsFrom: offset asNumber limit: limit asNumber]
 		ifFalse: [ list := self elements ] ]
 		on: VOMongoConnectionError
 		do: [ ^ TeaResponse serverError
