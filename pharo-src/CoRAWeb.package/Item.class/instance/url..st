@@ -1,3 +1,4 @@
 accessing
 url: anObject
-	url := anObject
+	url := anObject.
+	self updated

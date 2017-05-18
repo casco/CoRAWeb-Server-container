@@ -4,4 +4,5 @@ updateFromItem: anotherItem
 		type: anotherItem type;
 		owner: anotherItem owner;
 		properties: anotherItem properties.
-	self groups addAll: anotherItem groups
+	self groups addAll: anotherItem groups.
+	self updated. 

@@ -1,3 +1,4 @@
 accessing
 userid: anObject
-	userid := anObject
+	userid := anObject.
+	self updated

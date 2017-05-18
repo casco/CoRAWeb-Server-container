@@ -1,3 +1,4 @@
 accessing
 groups: anObject
-	groups := anObject
+	groups := anObject.
+	self updated.

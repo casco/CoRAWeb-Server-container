@@ -6,8 +6,8 @@ fromJSON: jsonIgnoreOwner withOwner: aUser
 		owner: aUser;
 		url: (dict at: 'url');
 		type: (dict at: 'type');
-		groups: (dict at: 'groups') asSet;
-		lastUpdatedOn: (dict at: 'last-updated');
+		groups: (dict at: 'groups');
+		lastUpdatedOn: DateAndTime now printString;
 		properties:
 			(dict copy
 				removeKey: 'url';

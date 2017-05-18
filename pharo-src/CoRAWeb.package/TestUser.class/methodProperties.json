@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"testEquals" : "Casco 3/9/2017 19:40",
-		"testFromToJSON" : "Casco 3/9/2017 19:41" } }
+		"testFromToJSON" : "Casco 3/9/2017 19:41",
+		"testSetterChangesUpdateTime" : "Casco 5/18/2017 10:54" } }
