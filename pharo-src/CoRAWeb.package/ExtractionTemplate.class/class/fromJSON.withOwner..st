@@ -7,7 +7,6 @@ fromJSON: jsonIgnoreOwner withOwner: aUser
 		urlPattern: (dict at: 'url-pattern');
 		itemType: (dict at: 'item-type');
 		groups: (dict at: 'groups');
-		lastUpdatedOn: (dict at: 'last-updated');
 		xPathPropertySelectors:
 			(dict copy
 				removeKey: 'url-pattern';

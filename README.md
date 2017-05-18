@@ -31,4 +31,19 @@ If you want to paginate thourgh the results use the limit (how many) and offset 
 curl -H "Accept: application/json" http://localhost:8080/items\?offset\=1&limit\=10
 ```
 
-* POST ???
+To submit a new item make a post request to the same URL. Use the userid parameter to identify the submitting user (taht should exist - see section users below). Use the request body to submit the item in JSON format.
+The fields type, url
+
+```
+curl -H "Content-Type: application/json" -X POST -d \
+'{
+    "type": "http://schema.org/VideoObject",
+    "url": "https://www.youtube.com/watch?v=Jev2Um-4_TQ",
+    "groups": [
+      "public"
+    ],
+    "title": "Tim Berners-Lee (M.I.T.), father of the World Wide Web...",
+    "description": "From Wikipedia: Sir Timothy \"Tim\" John Berners-Lee (born June 8, 1955 in London) is the inventor of the World Wide Web and director of the World Wide Web Consortium, which oversees its continued development. Informally, in technical circles, he is sometimes called \"TimBL\" or \"TBL\"."
+}' \
+http://localhost:8080/items\?userid=juan@gmail.com
+```
