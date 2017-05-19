@@ -67,7 +67,8 @@ curl -H "Content-Type: application/json" -X POST -d \
 }' \
 http://localhost:8080/users
 ```
-##templates
+
+## templates
 A get request to /templates will return the JSON list of __all__ templates in the repository.
 You can try it with curl executing:
 ```
