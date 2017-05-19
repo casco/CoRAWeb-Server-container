@@ -4,7 +4,7 @@ To get it running, you first need to install Docker in your machine, then clone 
 There are four utility shell scripts to get you started fast:
 
 * build.sh will create the virtual machine image (run it first of all, only once)
-* run-once.sh will do some additional work to get your server ready (run it only once) - wait for the server to start for the first time (until you see something when you go to http://localhost:8888/admin) and then kill the process with crtl+C.
+* run-once.sh will do some additional work to get your server ready (run it only once) - wait for the server to start for the first time (until you see something when you go to http://localhost:8888/admin) and then kill the process with crtl+C. NOTE: it can take about 2 minutes to start for the first time. 
 * start.sh starts the server
 * stop.sh stops the server
 
