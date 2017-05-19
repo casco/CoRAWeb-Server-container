@@ -1,6 +1,6 @@
 testing
-testFromToJSON
-	| xPathPropertySelectors user a b json |
+testSetterChangesUpdateTime
+	| a last user xPathPropertySelectors |
 	user := (User named: 'Jhon Doe' withId: 'doe@gmail.com')
 		groups: #('lifia' 'public');
 		yourself.
@@ -9,12 +9,15 @@ testFromToJSON
 		at: 'summary' put: 'summary-selector';
 		yourself.
 	a := ExtractionTemplate new
-		name: 'Simple template';
 		groups: #('public' 'lifia');
 		itemType: 'Book';
 		owner: user;
 		urlPattern: 'http://www.amazon.com/.*';
 		xPathPropertySelectors: xPathPropertySelectors.
-	json := a asJSON.
-	b := ExtractionTemplate fromJSON: json withOwner: user.
-	self assert: (a equalsExtractionTemplate: b)
+	{#owner: . #groups: . #name:. #urlPattern: . #itemType:. #xPathPropertySelectors:}
+		do: [ :sel | 
+			last := a lastUpdatedOn.
+			a perform: sel with: 'astringthatisalsoacollection'.
+			self assert: last < a lastUpdatedOn ].
+
+	

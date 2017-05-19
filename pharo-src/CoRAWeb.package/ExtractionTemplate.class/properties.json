@@ -6,13 +6,12 @@
 		 ],
 	"commentStamp" : "Casco 3/7/2017 16:47",
 	"instvars" : [
+		"name",
 		"urlPattern",
 		"xPathPropertySelectors",
 		"itemType",
 		"owner",
-		"groups",
-		"hostMatcher",
-		"pathMatcher" ],
+		"groups" ],
 	"name" : "ExtractionTemplate",
 	"pools" : [
 		 ],

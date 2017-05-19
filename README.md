@@ -74,11 +74,20 @@ You can try it with curl executing:
 curl -H "Accept: application/json" http://localhost:8080/templates
 ```
 
+To get the templates that match a given URL, provide the url as a parameter.
+
+You can try it with curl executing:
+```
+curl -H "Accept: application/json" http://localhost:8080/templates\?url=https://www.youtube.com/watch?v=tFN1jZmU_Q8
+```
+
 To submit or update a template make a post request to the same URL. Use the userid parameter to identify the submitting user (that should exist - see section users below). Use the request body to submit the item in JSON format.
-groups, item-type, and url-pattern mandatory fields.  Groups is a list of the groups that will be allowed to retrieve this template (however is does not check now). url-pattern is treated as a regular expression to match URLs. The rest of the fields are xPath expressions to extract item properties. As many as you want.
+groups, item-type, and url-pattern mandatory fields.  Groups is a list of the groups that will be allowed to retrieve this template (however is does not check now). url-pattern is treated as a regular expression to match URLs. __name__ is used as a key to identify existing template and update them. The rest of the fields are xPath expressions to extract item properties. As many as you want.
 
 ```
+curl -H "Content-Type: application/json" -X POST -d \
 '{
+  "name": "Youtube videos",
   "groups": [
     "public"
   ],
@@ -87,5 +96,6 @@ groups, item-type, and url-pattern mandatory fields.  Groups is a list of the gr
   "title": "//span[@id=\"eow-title\"]/text()",
   "description": "//p[@id=\"eow-description\"]/text()"
 }' \
+http://localhost:8080/templates\?userid=juan@gmail.com
 
 ```

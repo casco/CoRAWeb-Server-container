@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"fromJSON:withOwner:" : "Casco 5/18/2017 13:47",
+		"fromJSON:withOwner:" : "Casco 5/18/2017 20:47",
 		"isVoyageRoot" : "Casco 3/9/2017 05:03" },
 	"instance" : {
-		"asPropertyDictionary" : "Casco 5/18/2017 08:30",
+		"asPropertyDictionary" : "Casco 5/18/2017 20:25",
 		"at:" : "Casco 3/9/2017 04:51",
 		"at:put:" : "Casco 5/18/2017 10:47",
 		"description" : "Casco 5/8/2017 22:37",
-		"equalsItem:" : "Casco 3/9/2017 19:53",
+		"equalsItem:" : "Casco 5/18/2017 20:26",
 		"groups" : "Casco 3/9/2017 04:50",
 		"groups:" : "Casco 5/18/2017 10:47",
 		"initialize" : "Casco 5/18/2017 08:20",
@@ -19,6 +19,6 @@
 		"title" : "Casco 5/8/2017 22:30",
 		"type" : "Casco 3/9/2017 04:50",
 		"type:" : "Casco 5/18/2017 10:57",
-		"updateFromItem:" : "Casco 5/18/2017 10:45",
+		"updateFromItem:" : "Casco 5/18/2017 20:34",
 		"url" : "Casco 3/9/2017 04:50",
 		"url:" : "Casco 5/18/2017 10:48" } }

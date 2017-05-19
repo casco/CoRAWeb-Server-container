@@ -2,11 +2,15 @@ instance creation
 fromJSON: jsonIgnoreOwner withOwner: aUser
 	| it dict |
 	dict := NeoJSONReader fromString: jsonIgnoreOwner.
+	#('url' 'type')
+		do: [ :each | 
+			(dict includesKey: each)
+				ifFalse: [ ^ nil ] ].
 	it := Item new
 		owner: aUser;
 		url: (dict at: 'url');
 		type: (dict at: 'type');
-		groups: (dict at: 'groups');
+		groups: (dict at: 'groups' ifAbsent: Set new);
 		properties:
 			(dict copy
 				removeKey: 'url';
